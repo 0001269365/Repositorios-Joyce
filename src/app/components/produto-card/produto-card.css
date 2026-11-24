@@ -1,0 +1,6 @@
+.produto-card{
+    border:1px solid rgb(224, 37, 152);
+    padding:15px; 
+    border-radius:8px;
+    background-color: pink;
+}
