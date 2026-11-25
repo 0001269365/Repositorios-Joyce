@@ -12,7 +12,7 @@ export class ProdutoCard {
   item: Produto={
     id:1,
     nome:'Notebook',
-    preco:3500,
+    preco:3.500,
     quantidade:10
   }
 }

@@ -1,11 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ProdutoCard } from './components/produto-card/produto-card';
+import { Botao } from './components/botao/botao';
 
 
 
 @Component({
-  imports: [RouterOutlet,ProdutoCard],
+  imports: [RouterOutlet, ProdutoCard, Botao],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
