@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  imports: [],
+  imports: [Botao],
   selector: 'app-botao',
   standalone:true,
   styleUrl: './botao.css',

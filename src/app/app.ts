@@ -8,6 +8,7 @@ import { Botao } from './components/botao/botao';
 @Component({
   imports: [RouterOutlet, ProdutoCard, Botao],
   selector: 'app-root',
+  standalone:true,
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
